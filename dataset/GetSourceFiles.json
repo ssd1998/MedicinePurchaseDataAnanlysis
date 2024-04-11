@@ -1,0 +1,59 @@
+{
+	"name": "GetSourceFiles",
+	"properties": {
+		"linkedServiceName": {
+			"referenceName": "AzureDataLakeStorage1",
+			"type": "LinkedServiceReference"
+		},
+		"annotations": [],
+		"type": "Json",
+		"typeProperties": {
+			"location": {
+				"type": "AzureBlobFSLocation",
+				"fileSystem": "bronze"
+			}
+		},
+		"schema": {
+			"type": "object",
+			"properties": {
+				"Productid": {
+					"type": "string"
+				},
+				"firstName": {
+					"type": "string"
+				},
+				"lastName": {
+					"type": "string"
+				},
+				"Gender": {
+					"type": "string"
+				},
+				"email": {
+					"type": "string"
+				},
+				"createdAt": {
+					"type": "string"
+				},
+				"updatedAt": {
+					"type": "string"
+				},
+				"birthdate": {
+					"type": "string"
+				},
+				"LastAmountPaid": {
+					"type": "string"
+				},
+				"TotalAmount_TillUpdatedDt": {
+					"type": "string"
+				},
+				"Status": {
+					"type": "string"
+				},
+				"CustomerId": {
+					"type": "string"
+				}
+			}
+		}
+	},
+	"type": "Microsoft.DataFactory/factories/datasets"
+}

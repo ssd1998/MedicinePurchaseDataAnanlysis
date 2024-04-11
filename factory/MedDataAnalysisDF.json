@@ -1,0 +1,9 @@
+{
+	"name": "MedDataAnalysisDF",
+	"location": "eastus",
+	"identity": {
+		"type": "SystemAssigned",
+		"principalId": "dd971230-69bf-4979-9fbd-ee4abfaf73a2",
+		"tenantId": "0626e43d-372a-47c5-a356-7287c7312a9d"
+	}
+}
